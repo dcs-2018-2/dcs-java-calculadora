@@ -15,7 +15,7 @@ public class CalculadoraTest {
         CalculadoraProgram program = new CalculadoraProgram();
         String saida = program.calcula(n1, n2, op);
 
-        assertThat(saida, is("30"));
+        assertThat(saida, is("30.0"));
     }
 
     @Test
@@ -27,7 +27,7 @@ public class CalculadoraTest {
         CalculadoraProgram program = new CalculadoraProgram();
         String saida = program.calcula(n1, n2, op);
 
-        assertThat(saida, is("-10"));
+        assertThat(saida, is("-10.0"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class CalculadoraTest {
         CalculadoraProgram program = new CalculadoraProgram();
         String saida = program.calcula(n1, n2, op);
 
-        assertThat(saida, is("200"));
+        assertThat(saida, is("200.0"));
     }
 
     @Test
